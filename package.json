@@ -4,11 +4,13 @@
   "description": "An email input with domain validation",
   "main": "index.js",
   "scripts": {
-    "test": "nyc ava | tap-diff",
-    "lint": "eslint ./index.js",
-    "pretest": "npm run lint"
-  },
-  "repository": {
+    "test": "npm run nyc",
+    "pretest": "npm run lint",
+    "ava": "ava | tap-diff",
+    "ava:watch": "ava --watch | tap-diff",
+    "nyc": "nyc --all npm run ava",
+    "lint": "eslint ./"
+  },  "repository": {
     "type": "git",
     "url": "git@github.com:punchcard-cms/input-plugin-email.git"
   },
