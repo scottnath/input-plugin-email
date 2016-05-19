@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * email Input Plugin
  *
