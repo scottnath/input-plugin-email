@@ -1,6 +1,6 @@
 {
   "name": "input-plugin-email",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "An email input with domain validation",
   "main": "index.js",
   "scripts": {
