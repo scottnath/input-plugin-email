@@ -1,3 +1,5 @@
+'use strict';
+
 /**
  * email Input Plugin
  *
@@ -26,8 +28,7 @@ module.exports = {
       label: 'email',
       placeholder: 'add your email',
       settings: {
-        'domains': ['foo.com', 'bar.com', 'baz.com'],
-        'regex': /^\s*[\w\-\+_]+(\.[\w\-\+_]+)*\@[\w\-\+_]+\.[\w\-\+_]+(\.[\w\-\+_]+)*\s*$/,
+        empty: true,
       },
     },
   },
