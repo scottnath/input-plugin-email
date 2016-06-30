@@ -24,7 +24,7 @@
     "validator": "^5.2.0"
   },
   "devDependencies": {
-    "ava": "^0.14.0",
+    "ava": "^0.15.1",
     "coveralls": "^2.11.9",
     "eslint": "^2.10.0",
     "eslint-config-punchcard": "^1.0.1",
