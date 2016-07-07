@@ -1,5 +1,6 @@
 {
   "name": "input-plugin-email",
+  "version": "0.0.0",
   "keyword": "punchcard-cms",
   "description": "An email input with domain validation",
   "main": "index.js",
